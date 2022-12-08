@@ -32,7 +32,7 @@ class LoginViewController: UIViewController {
     
     private func userImageViewTapped() {
         mainView.userImageViewTapped = {
-            print("userImage view tapped")
+            print("userImage view tapped   ")
         }
     }
     
