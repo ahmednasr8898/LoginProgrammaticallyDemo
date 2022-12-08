@@ -15,6 +15,7 @@
 		250154EF293F2CC8008ABAF6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250154EE293F2CC8008ABAF6 /* LoginView.swift */; };
 		250154F1293F2DF7008ABAF6 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250154F0293F2DF7008ABAF6 /* LoginViewModel.swift */; };
 		250154F3293F2E04008ABAF6 /* LoginViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250154F2293F2E04008ABAF6 /* LoginViewModelType.swift */; };
+		251F08B62941FF68000F3F41 /* TestPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 251F08B52941FF68000F3F41 /* TestPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		250154EE293F2CC8008ABAF6 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		250154F0293F2DF7008ABAF6 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		250154F2293F2E04008ABAF6 /* LoginViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelType.swift; sourceTree = "<group>"; };
+		251F08B32941FF4D000F3F41 /* TestPackage */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPackage; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				251F08B62941FF68000F3F41 /* TestPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +47,10 @@
 		250154CD293F2C20008ABAF6 = {
 			isa = PBXGroup;
 			children = (
+				251F08B32941FF4D000F3F41 /* TestPackage */,
 				250154D8293F2C21008ABAF6 /* LoginPageProgrammatically */,
 				250154D7293F2C21008ABAF6 /* Products */,
+				251F08B42941FF68000F3F41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +86,13 @@
 			path = LoginPage;
 			sourceTree = "<group>";
 		};
+		251F08B42941FF68000F3F41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,6 +109,9 @@
 			dependencies = (
 			);
 			name = LoginPageProgrammatically;
+			packageProductDependencies = (
+				251F08B52941FF68000F3F41 /* TestPackage */,
+			);
 			productName = LoginPageProgrammatically;
 			productReference = 250154D6293F2C21008ABAF6 /* LoginPageProgrammatically.app */;
 			productType = "com.apple.product-type.application";
@@ -364,6 +379,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		251F08B52941FF68000F3F41 /* TestPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TestPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 250154CE293F2C20008ABAF6 /* Project object */;
 }
